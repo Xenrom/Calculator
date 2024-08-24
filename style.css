@@ -4,11 +4,19 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* buttons */
 button {
     flex: 1;
     padding: 8px 24px;
-    font-size: medium;
+    font-size: large;
     border: 1.5px solid black;
 }
 
@@ -27,6 +35,7 @@ button:hover {
     height: 500px;
     display: flex;
     flex-direction: column;
+    border: 2px solid black;
 }
 
 .display {
@@ -64,6 +73,7 @@ button:hover {
 .left-middle-container div {
     flex: 1;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .right-middle-container {
@@ -85,7 +95,7 @@ button:hover {
 }
 
 #_0 {
-    flex: 3.5;
+    flex: 3.3;
 }
 
 
